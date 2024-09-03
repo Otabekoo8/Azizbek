@@ -1,0 +1,107 @@
+/* Keyingi.css */
+
+.vareantlar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative; /* Ensure relative positioning to use top */
+  top: -240px;
+  /* left: 100px; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.options1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.options1 button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.options1 button:hover {
+  background-color: #0056b3;
+}
+
+.images-section {
+  margin-top: 20px;
+}
+
+.images-section h3 {
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.images img {
+  width: 250px; /* Adjust to 300px if needed */
+  height: 250px; /* Adjust to 300px if needed */
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+.container2{
+  position: relative;
+  top: 200px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vareantlar-container {
+  text-align: center;
+}
+
+.images-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Rasmlar orasidagi masofa */
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Istalgancha radius berishingiz mumkin */
+}

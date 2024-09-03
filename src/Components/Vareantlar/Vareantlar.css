@@ -1,0 +1,161 @@
+/* Vareantlar.css */
+
+.container-1 {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.regionSection, .filterSection {
+    margin-bottom: 20px;
+}
+
+.sectionTitle {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.select, .input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.resultsSection {
+    margin-top: 20px;
+}
+
+.resultItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resultImage {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.resultText {
+    flex: 1;
+}
+
+.showMoreButton {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.showMoreButton:hover {
+    background-color: #218838;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px; /* Tugma balandligi bilan bir xil */
+    text-align: center;
+    display: flex; /* Flexbox qo'llash */
+    align-items: center; /* Yigirma elementlarni vertikal markazlashtirish */
+    justify-content: center; /* Yigirma elementlarni gorizontal markazlashtirish */
+    cursor: pointer;
+}
+
+
+.purchaseButton {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.purchaseButton:hover {
+    background-color: #0056b3;
+}
+
+.purchaseMessage {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}

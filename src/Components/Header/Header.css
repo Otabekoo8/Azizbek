@@ -1,0 +1,146 @@
+/* General header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/imgs/kirishlogo.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 10px 20px;
+  height: 100px; /* Adjust height as needed */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px; /* Adjust size as needed */
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Modal styling */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px; /* Adjust width as needed */
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.user-icon{
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Barcha elementlarni bir xil balandlikda tekislash */
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Logo va matnni vertikal markazga tekislaydi */
+}
+
+.logo-img {
+  height: 40px; /* Logo rasmning o'lchamini boshqarish */
+  margin-right: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Menyu elementlarini vertikal markazga tekislaydi */
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center; /* Rasm va logout tugmasini vertikal markazga tekislaydi */
+}
+
+.user-icon {
+  height: 30px; /* Foydalanuvchi rasmning balandligini sozlash */
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 8px; /* Logout tugmasi bilan rasm orasidagi masofa */
+}

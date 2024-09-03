@@ -1,0 +1,42 @@
+.container1{
+  display: flex;
+  position: relative;
+  top: 1200px;
+  margin-left: 400px;
+  color: #fff;
+}
+.footer-bgc{
+  width: 1000%;
+  height: 200px;
+  margin-left: -401px;
+  background-color: rgba(0.0.0.07);
+}
+.ijara{
+  position: relative;
+  left: 100px;
+  top: 100px; 
+}
+.tolov{
+    position: relative;
+    left: 150px;
+    top: 100px;
+    font-size: 14px;
+}
+.ishlash{
+  position: relative;
+  left: 200px;
+  top: 100px;
+  font-size: 14px;
+}
+.ssss{
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 20px;
+  height: 20px;
+}
+.topishbolganmanzillar{
+  position: relative;
+  margin-left: 1000px;
+  top: 44px;
+}

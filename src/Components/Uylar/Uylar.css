@@ -1,0 +1,83 @@
+.container {
+    max-width: 1000px; /* Reduced width */
+    margin: 0 auto; /* Centered horizontally */
+    padding: 20px;
+    margin-top: -200px; /* Moved the component up by 200px */
+  }
+  
+  .filter-section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Reduced spacing between filters */
+  }
+  
+  select {
+    width: 150px; /* Reduced width */
+    height: 30px; /* Reduced height */
+    padding: 5px; /* Reduced padding */
+  }
+  
+  .sort-currency-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0; /* Reduced margin */
+  }
+  
+  .sort-button {
+    padding: 5px 10px; /* Reduced button padding */
+    font-size: 14px; /* Reduced font size */
+  }
+  
+  .currency select {
+    width: 100px; /* Reduced width */
+    height: 30px; /* Reduced height */
+  }
+  
+  .listings {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Reduced gap between listings */
+  }
+  
+  .listing {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px; /* Reduced padding */
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
+  .listing img {
+    width: 120px; /* Reduced image width */
+    height: 80px; /* Reduced image height */
+    object-fit: cover;
+    margin-right: 10px; /* Reduced margin */
+  }
+  
+  .listing-details h3 {
+    margin: 0;
+    font-size: 16px; /* Reduced font size */
+  }
+  
+  .listing-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .listing-details span {
+    font-weight: bold;
+  }
+  
+  .heart-icon {
+    font-size: 20px; /* Reduced icon size */
+    color: #ccc;
+    cursor: pointer;
+    position: absolute;
+    right: 10px; /* Reduced right offset */
+  }
+  
+  .heart-icon.selected {
+    color: red;
+  }
+.eng_qimmat{}
